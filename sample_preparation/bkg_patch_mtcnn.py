@@ -39,7 +39,7 @@ def get_random_rect(width, height, face_list=[]):
 	return res
 	
 
-root_path = '/home/zhangbin/NPD/npd/npd_train/data/bkg_img'
+root_path = '........'
 annot = open(sys.argv[1])
 while 1:
 	line = annot.readline()

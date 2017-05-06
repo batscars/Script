@@ -6,7 +6,7 @@ import numpy as np
 
 
 def rotation_option(img_path):
-    img = cv2.imread(img_path)  # '/raid/zhangzhaofeng/npd_code/npd_train/data/left_positive/5.jpg'
+    img = cv2.imread(img_path)  
     rows, cols = img.shape[:2]
     angle = random.uniform(-40, 50)
     print(angle)

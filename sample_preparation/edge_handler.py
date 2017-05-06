@@ -3,7 +3,7 @@ import cv2
 import os
 import numpy as np
 
-root_path = '/home/zhangbin/NPD/npd/npd_train/data/face_annotation_zhangbin/Images'
+root_path = '......'
 annot = open(sys.argv[1])
 res = open(sys.argv[2], 'w')
 

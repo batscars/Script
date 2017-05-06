@@ -1,3 +1,7 @@
+# coding=utf-8
+'''
+功能：根据每张图片的人脸位置，随机获取图片中任意非人脸区域将人脸区域覆盖，并保存到指定路径，并生成保存后的图片list
+'''
 import sys
 import cv2
 import os
@@ -39,7 +43,7 @@ def get_random_rect(width, height, face_list=[]):
 	return res
 	
 
-root_path = '/home/zhangbin/NPD/npd/npd_train/data/face_annotation_zhangbin/Images'
+root_path = '...............'
 bkg_path = sys.argv[1]
 if not os.path.exists(bkg_path):
 	os.makedirs(bkg_path)

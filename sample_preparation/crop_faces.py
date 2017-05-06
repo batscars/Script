@@ -4,7 +4,7 @@ import os
 import random
 import numpy as np
 
-root_path = '/home/zhangbin/NPD/npd/npd_train/data/face_annotation_zhangbin/Images'
+root_path = '.......'
 
 def to_square(x, y, w, h):
 	if w > h:
