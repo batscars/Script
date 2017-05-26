@@ -6,8 +6,8 @@ res = open(sys.argv[1], 'w')
 path01 = ''
 pixels = []
 for i in range(10):
-    x = random.randint(0, 32)
-    y = random.randint(0, 32)
+    x = random.randint(0, 31)
+    y = random.randint(0, 31)
     pixels.append([x, y])
 
 lut = []
